@@ -1,10 +1,18 @@
-# Software Engineering Group Project
+## Predicting seed health in partnership with the UK's 'doomsday vault'
 
-## Requirements
+A project with Kew Gardens and the Millennium Seed Bank to provide a web application for predicting and allocating seed health scores. Below is a map of where the core functionality is located within the directory:
+* Frontend: `web/`
+* Server: `flask_server/`
+* Synthesiser (creates synthetic image data/seed x-rays): `src/synth/`
+* Model training: `notebooks/yolov8_training.ipynb` and `src/mask_rcnn_training`
+
+*Note this repo has been forked from my Imperial College London research account to my personal GitHub so the CI pipeline and downloading trained model weights won't work because of the GitLab config and permissioned access to Imperial's bitbucket.*
+
+### Requirements
 1. Python >= 3.10 - [Download](https://www.python.org/downloads/)
 2. Node.js >= 20.0 - [Download](https://nodejs.org/en/download)
 
-## Setup
+### Setup
 1. Clone the repository
 2. Create a python virtual environment in the project root directory
     ```
@@ -24,7 +32,7 @@
     wget https://www.doc.ic.ac.uk/project/2023/70079/g237007903/weights/yolo.pt
     ```
 
-## Running the application
+### Running the application
 1. Start the back-end. From the root directory
     ```
     source venv/bin/activate
