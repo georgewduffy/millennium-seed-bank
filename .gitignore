@@ -1,0 +1,11 @@
+**/venv/
+**/*.pyc
+**/.pytest_cache/
+**/__pycache__/
+**/*.ipynb_checkpoints
+*.coverage
+coverage.xml
+flask-server/server-env/
+flask-server/app/models/final_model_weights/*
+temp/*
+/models/
