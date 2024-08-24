@@ -6,7 +6,7 @@ A project with Kew Gardens and the Millennium Seed Bank to provide a web applica
 * Synthesiser (creates synthetic image data/seed x-rays): `src/synth/`
 * Model training: `notebooks/yolov8_training.ipynb` and `src/mask_rcnn_training`
 
-*Note this repo has been forked from my Imperial College London research account to my personal GitHub so the CI pipeline and downloading trained model weights won't work because of the GitLab config and permissioned access to Imperial's bitbucket.*
+*Note this repo has been forked from my Imperial College London research account to my personal GitHub so the CI pipeline and downloading trained model weights won't work because of the GitLab config and permissioned access to Imperial's bitbucket. Training scripts are available for model development, but used data with Kew Gardens was proprietary -- using this repo would require sourcing training data.*
 
 ### Requirements
 1. Python >= 3.10 - [Download](https://www.python.org/downloads/)
